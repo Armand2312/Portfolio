@@ -22,6 +22,7 @@ nav {
     left: 0;
     top: 0;
     right: 0;
+    z-index: 1;
 }
 ul {
     display: flex;
@@ -49,12 +50,14 @@ p {
     /* flex-direction: row; */
     height: 80%;
     justify-content: center;
-    gap: 10rem;
+    gap: 5rem;
     position: relative;
     align-items: center;
 }
-.hero-img {
-    background-image: url(imgs/IMG_2949.PNG);
+.headshot {
+    width: 300px;
+    border-radius: 150px;
+    margin-right: 100px;
 }
 .logo{
     font-size: 20px;
@@ -63,4 +66,13 @@ p {
 }
 body{
     font-family: 'Poppins', sans-serif;
+}
+/* .socials {
+    justify-content: space-around;
+} */
+.socials1 {
+    /* justify-content: space-between; */
+    float: left;
+    margin-right: 10px;
+     
 }
