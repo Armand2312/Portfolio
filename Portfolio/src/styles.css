@@ -1,17 +1,25 @@
+
+@media only screen and (max-width:1000px) {
+    .project-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
 section {
-    height: 500px;
+    
     background-color: blue;
-    border: solid black 1px;
+    
 }
 .hero{
     background-color: #f9f9f9;
-    height: 100vh;
+    /* height: 100vh; */
     color: black;
     font-size: 40px;
+    padding: 10rem 0;
 }
 footer{
-    height: 500px;
-    background-color: black;
+    
+    background-color: #fff;
 }
 nav {
     display: flex;
@@ -42,22 +50,46 @@ h1 {
 p {
     font-size: 20px;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.subtext {
+    font-size: 15px;
+    font-weight: 300;
+}
+.hero-container {
+    margin: 0 auto;
+    max-width: 107rem;
+    padding: 0 4rem;
+}
+
 .hero-text{
-    margin: 80px;
+/*     margin: 70px;
+ */
+padding-right: 1rem;
+margin-right: 70px;
 }
 .hero-area {
-    display: flex;
-    /* flex-direction: row; */
-    height: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
     justify-content: center;
-    gap: 5rem;
-    position: relative;
+    gap: 0.5em;
+    
     align-items: center;
 }
 .headshot {
-    width: 300px;
-    border-radius: 150px;
-    margin-right: 100px;
+    width: 450px;
+    border-radius: 25px;
+    margin-left: 175px;
 }
 .logo{
     font-size: 20px;
@@ -66,13 +98,60 @@ p {
 }
 body{
     font-family: 'Poppins', sans-serif;
+   
 }
-/* .socials {
-    justify-content: space-around;
-} */
+
 .socials1 {
-    /* justify-content: space-between; */
+    
     float: left;
     margin: 10px;
      
+}
+
+.div {
+    display: block;
+}
+
+.project-card {
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 20px rgba(195, 195, 195);
+    margin: 10px;
+}
+
+.cv-card {
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 20px rgba(195, 195, 195);
+}
+
+.cvimg {
+    margin-top: 25px;
+    width: 250px;
+    border-radius: 50px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.cv-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.projects-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #f9f9f9;
+    padding-bottom: 100px;
+}
+
+.cv-section {
+    background-color:#fff;
+    padding: 50px;
+    text-align: center;
 }
