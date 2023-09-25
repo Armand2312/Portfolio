@@ -123,12 +123,13 @@ body{
     width: 300px;
     height: 500px;
     box-shadow: 5px 5px 20px rgba(195, 195, 195);
+    
 }
 
 .cvimg {
     margin-top: 25px;
     width: 250px;
-    border-radius: 50px;
+    border-radius: 25px;
 }
 
 .project-container {
@@ -139,7 +140,8 @@ body{
 
 .cv-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 2.5rem;
 }
 
 .projects-section {
